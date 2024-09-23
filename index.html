@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登入頁面</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    h2 {
+        color: #333;
+    }
+        .divider {
+            border-top: 2px solid #000; /* 設置分隔線的顏色和厚度 */
+            margin: 20px 0; /* 設置上下邊距 */
+        }
+</style>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+
+    <div class="login-container">
+   
+    <h1>歡迎來到我的主頁</h1>
+    <p>這是一段介紹文字。</p>
+    <hr> <!-- 在這裡插入水平線 -->
+
+    <h2>關於我們</h2>
+    <p>這裡是關於我們的資訊。</p>
+
+    <div class="divider"></div> <!-- 使用 div 來創建分隔線 -->
+
+    <h2>關於我們</h2>
+    <p>這裡是關於我們的資訊。</p>
+</body>
+</html>
+      <h2>登入
+      </h2>
+      <form id="loginForm">
+        <div>
+          <label for="username">用戶名</label>
+          <input type="text" id="username" required />
+          <br/>
+        </div>
+        <div>
+          <label for="password">密碼</label>
+          <input type="password" id="password" required />
+        </div>
+        <button type="submit">登入</button>
+      </form>
+      <div id="message" class="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
